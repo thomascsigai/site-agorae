@@ -1,0 +1,138 @@
+/****HEADER*******/
+header{
+margin: auto;
+margin-top: 20px;
+}
+
+header a{
+  width: 125px;
+  background-color: #00F683;
+  border-radius: 4px;
+  border:none;
+  color: white;
+  padding: 10px;
+  font-size: 15px;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  margin: auto;
+}
+
+@media (max-width: 800px) {
+}
+/****BODY*******/
+body{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin:0;
+  background-color: #9EFFBA;
+  font-family: "Segoe UI";
+}
+
+/****CONTENT*****/
+.content{
+  flex: 1;
+  display: flex;
+  justify-content: space-around;
+}
+
+.content .container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content .containerThin{
+  width: 60%;
+  margin: 20px;
+
+}
+
+.content .containerSmall{
+  background-color: white;
+  padding: 10px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px;
+}
+
+.content .containerSmall img{
+  width: 100px;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.content .containerSmall a{
+  height: 40px;
+}
+
+.content .containerSmall h4{
+}
+
+#boutonValider{
+  width: 125px;
+  background-color: #00F683;
+  border-radius: 4px;
+  border:none;
+  color: white;
+  padding: 10px;
+  font-size: 15px;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  margin: auto;
+}
+
+form {
+  margin: 0;
+  clear: both;
+}
+
+form input{
+}
+
+.tableAffichage{
+  border-collapse: collapse;
+  margin: 25px 0;
+  min-width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+@media (max-width: 1000px) {
+
+  .content{
+    flex-direction: column;
+    justify-content:center;
+
+  }
+
+  .content .container{
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+  }
+
+  .content .containerThin{
+    width: 100%;
+    margin: 0;
+  }
+
+  .content .containerSmall{
+    margin: 20px;
+  }
+}
+
+/***FOOTER*****/
+footer{
+  display: flex;
+  flex-direction: column;
+}
+
+footer a{
+  color: white;
+  text-decoration: none;
+}
